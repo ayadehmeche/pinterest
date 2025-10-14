@@ -100,7 +100,7 @@ nav{
     color: var(--grey-300);
 }
 
-img{
+.profile-pic{
     height: 32px;
     border-radius: 100px;
 }
@@ -144,16 +144,14 @@ a{
 
 /* CARD */
 
-/* .masonry{
-    display: grid;
-    grid-template-columns: repeat(7, 241px);
-    grid-template-rows: masonry;
-    gap: 16px;
-    min-height: 100vh;
-} */
+.masonry{
+    width: calc(100vw - 112px);
+    columns: 320px;
+    overflow-x: hidden;
+} 
 
 .card, .card img{
-    width: 241.84px;
+    width: 100%;
     border-radius: 8px;
     background-color: #E60024;
 }
