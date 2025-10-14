@@ -1,0 +1,177 @@
+.btn-primary{
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    height: 48px;
+    width: 48px;
+}
+
+.btn-secondary{
+    display: inline;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+::placeholder{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn-primary:hover{
+    background-color: var(--grey-100);
+}
+
+.btn-primary-24{
+    border: none;
+    border-radius: 8px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+}
+.btn-primary-24:hover{
+    background-color: var(--grey-100);
+}
+
+.width-100{
+    width: 100%;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.min-height{
+    min-height: 100vh;
+}
+
+/* FLEX */
+
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+/* POSITION */
+
+.justify-cntr{
+    justify-content: center;
+}
+
+.align-cntr{
+    align-items: center;
+}
+
+.justify-btwn{
+    justify-content: space-between;
+}
+
+.clip-right{
+    overflow: hidden;
+    width: 100%; /* ou max-width */
+}
+
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.pos-fix{
+    position: fixed;
+}
+
+/* PADDING/MARGIN */
+
+.p-1{
+    padding: 4px;
+}
+
+.p-2{
+    padding: 6px;
+}
+
+.p-3{
+    padding: 8px;
+}
+
+.p-4{
+    padding: 16px;
+}
+
+.p-5{
+    padding: 24px;
+}
+
+.p-6{
+    padding: 32px;
+}
+
+/* MARGIN */
+
+.ml-8{
+    margin-left: 8px;
+}
+
+/* GAP */
+
+.gap-16{
+    gap: 16px;
+}
+
+/*BACKGROUND COLORS*/
+
+.bg-primary{
+    background-color: var(--primary-color);
+}
+.bg-secondary{
+    background-color: var(--opacity-primary);
+}
+
+/* TEXT COLORS */
+
+.text-dark{
+    color: var(--secondary-color);
+}
+
+.text-light{
+    color: var(--primary-color);
+}
+
+.text-grey{
+    color: var(--grey-300);
+}
+
+/* TEXT SIZES */
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+/* TEXT WEIGHT */
+
+.fw-500{
+    font-weight: 500;
+}
+
+/* BORDER */
+
+.border-bttm{
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+/* RADIUS */
