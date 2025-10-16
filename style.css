@@ -241,6 +241,7 @@ main div{
         columns: 2;
         width: 100vw;
         padding: 0px 8px;
+        overflow-y: scroll;
     }
     div.grid-item{
         padding: 0;
