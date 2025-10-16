@@ -263,5 +263,18 @@ main div{
     }
     nav div.flex-col{
         flex-direction: row;
+        justify-content: space-around;
+    }
+    nav div.flex.flex-col{
+        width: 100%;
+    }
+    nav div.settings-btn{
+        display: none;
+    }
+    .categories .btn-primary-24{
+        display: none;
+    }
+    #logo{
+        display: none;
     }
 }
