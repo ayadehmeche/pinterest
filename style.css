@@ -249,6 +249,8 @@ main div{
     main{
         grid-area: main;
         overflow-x: hidden;
+        overflow-y: scroll;
+        touch-action: auto;
     }
     main.grid-item{
         padding: 0;
