@@ -1,10 +1,10 @@
 # pinterest
 
-![Image](pinterest.png)
+![Image](images/pinterest.png)
 
 Tried to recreate the landing page of pinterest with a masonry grid technique in CSS.
 
-[https://fantastic-scone-753424.netlify.app](https://fantastic-scone-753424.netlify.app/)
+[Preview my work :)](https://fantastic-scone-753424.netlify.app/)
 
 *done with*
 ### HTML CSS
