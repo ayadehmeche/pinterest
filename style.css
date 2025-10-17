@@ -21,7 +21,7 @@ body{
     background: var(--primary-color);
     line-height: 1.6;
     max-width: 100%;
-    height: 100dvh;
+    min-height: 100dvh;
     display: grid;
     grid-template-columns: 72px 6fr 6fr;
     grid-template-rows: 80px 80px 6fr 6fr;
@@ -241,7 +241,6 @@ main div{
         columns: 2;
         width: 100vw;
         padding: 0px 8px;
-        overflow-y: scroll;
     }
     div.grid-item{
         padding: 0;
@@ -249,20 +248,20 @@ main div{
     main{
         grid-area: main;
         overflow-x: hidden;
-        overflow-y: scroll;
-        touch-action: auto;
+        overflow-y: auto;
     }
     main.grid-item{
         padding: 0;
     }
     nav{
         grid-area: nav;
-        position: static;
         width: 100%;
-        height: 100%;
+        height: 72px;
     }
     nav.grid-item{
         padding: 0;
+        position: fixed;
+        bottom: 0px;
     }
     nav div.flex-col{
         flex-direction: row;
